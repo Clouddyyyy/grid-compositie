@@ -1,0 +1,67 @@
+body {
+  
+  margin: 0;
+  background-color: white;
+}
+
+.html{
+  font-size: 62,5%
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+.back {
+  margin: 20px;
+  align-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 0.8rem;
+  min-height: 40rem;
+}
+ 
+.Formulier {
+  grid-column: span 2 / span 2;
+  grid-row: span 6 / span 6;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  background-color: blue;
+  min-height: 50rem;
+  border-radius: 2rem;
+}
+
+.Fetch {
+  grid-column: span 3 / span 3;
+  grid-row: span 3 / span 3;
+  grid-column-start: 5;
+  grid-row-start: 2;
+  background-color: green;
+  border-radius: 2rem;
+}
+
+.Stopwatch {
+  grid-column: span 3 / span 3;
+  grid-row: span 3 / span 3;
+  grid-column-start: 5;
+  grid-row-start: 5;
+  background-color: red;
+  border-radius: 2rem;
+}
